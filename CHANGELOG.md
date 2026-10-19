@@ -1,6 +1,6 @@
 # Unreleased
 
-  * Add SdpApi::accept_offer_with to narrow the answer direction of each m-line #1082
+  * Add SdpApi::accept_offer_with to adjust the answer per m-line via AnswerMedia, starting with narrowing its direction #1082
   * Send pending keyframe and REMB requests without waiting for unrelated timers #1081
   * Bump dimpl to 0.8.0 and sctp-proto to 0.10.7; return accepted DTLS write byte counts (breaking) #1080
   * Preserve filler data NAL units when sending H264, H265, and H266 video #1079
